@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
      names.each do |name|
        if !output[name] 
        output[name] = {}
-        binding.pry
+  #      binding.pry
        end
        if !output[name][key]
          output[name][key] = []
