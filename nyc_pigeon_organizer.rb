@@ -12,12 +12,11 @@ def nyc_pigeon_organizer(data)
   #      binding.pry
        end
        if !output[name][key]
-         output[name][key] = []
+          !output[name][key] = []
        end
        output[name][key].push(inner_key)
    end
   end   
 end
-  output
   binding.pry
 end
